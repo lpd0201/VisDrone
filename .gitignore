@@ -1,0 +1,42 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datasets - ignore only folders at project root
+/TACO
+
+# Training outputs
+/runs/
+wandb/
+logs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
